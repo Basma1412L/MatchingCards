@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.basma.cardsgame.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/nameTXT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"  />
+
+        <TextView
+            android:id="@+id/timerLabel"
+            android:layout_width="9dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:layout_weight="1"
+            android:text="Time: "
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/timerID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:text="0" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/topLinear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="5">
+
+
+        <ImageButton
+            android:id="@+id/first"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:padding="20dp"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/ic_launcher_background" />
+
+        <ImageButton
+            android:id="@+id/second"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:padding="20dp"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/ic_launcher_background" />
+
+        <ImageButton
+            android:id="@+id/third"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:padding="20dp"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/ic_launcher_background" />
+
+        <ImageButton
+            android:id="@+id/fourth"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:padding="20dp"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/ic_launcher_background" />
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:id="@+id/bottomLinear"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_weight="5">
+
+        <ImageButton
+            android:id="@+id/fifth"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:padding="20dp"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/ic_launcher_background" />
+
+        <ImageButton
+            android:id="@+id/sixth"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:padding="20dp"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/ic_launcher_background" />
+
+        <ImageButton
+            android:id="@+id/seventh"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:padding="20dp"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/ic_launcher_background" />
+
+        <ImageButton
+            android:id="@+id/eighth"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:padding="20dp"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/ic_launcher_background" />
+    </LinearLayout>
+
+
+</android.support.v7.widget.LinearLayoutCompat>
+
